@@ -12,3 +12,6 @@ altair
 python-docx
 Werkzeug
 psutil
+psutil
+matplotlib
+scikit-learn
