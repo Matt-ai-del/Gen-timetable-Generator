@@ -21,7 +21,7 @@ from services.email_service import send_feedback_email
 from ui.lecturer_timetable import render_lecturer_download_section
 import logging
 import database
-import matt
+
 
 # Configure logging
 logging.basicConfig(
@@ -60,7 +60,7 @@ def set_bg():
 set_bg()
 
 import login
-import matt
+#import matt
 
 def main():
     # Initialize session state
