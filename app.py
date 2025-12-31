@@ -380,7 +380,7 @@ def main():
                     )
         else:
             # Pass role to matt.main if needed for further permission checks
-            matt.main(user_role=st.session_state.get('role', 'student'))
+          #  matt.main(user_role=st.session_state.get('role', 'student'))
         
         # Add footer
         st.markdown("---")  # Add a horizontal line
