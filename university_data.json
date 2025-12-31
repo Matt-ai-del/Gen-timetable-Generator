@@ -1,0 +1,66 @@
+{
+    "departments": {
+        "CS": {
+            "name": "Computer Science",
+            "programs": [
+                "CS",
+                "CSE"
+            ],
+            "levels": [
+                "1.1",
+                "1.2",
+                "2.1",
+                "2.2",
+                "4.1",
+                "4.2"
+            ],
+            "courses": [
+                {
+                    "code": "HCSCI134",
+                    "name": "OOP",
+                    "type": "Program-Specific",
+                    "hours": 8,
+                    "target_programs": [
+                        "CS"
+                    ],
+                    "target_levels": [
+                        "2.1"
+                    ]
+                },
+                {
+                    "code": "hcsci134",
+                    "name": "oop",
+                    "type": "Core",
+                    "hours": 8,
+                    "target_programs": [
+                        "CS"
+                    ],
+                    "target_levels": [
+                        "1.2"
+                    ]
+                }
+            ],
+            "faculty": [
+                {
+                    "id": "CS",
+                    "name": "Computer science",
+                    "courses": [
+                        "HCSCI134"
+                    ],
+                    "max_daily": 4
+                }
+            ],
+            "rooms": [
+                "lab 30"
+            ]
+        },
+        "ED": {
+            "name": "Education",
+            "programs": [],
+            "levels": [],
+            "courses": [],
+            "faculty": [],
+            "rooms": []
+        }
+    }
+}
